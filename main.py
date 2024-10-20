@@ -1,9 +1,9 @@
-import math
-x=float(input("Введите значение x"))
-y=float(input("Введите значение y"))
-R=float(input("Введите радиус круга"))
-formylarastoyania=math.sqrt(x**2+y**2)
-if formylarastoyania <= R:
- print("Точка попадает в круг")
-else:
- print("Точка не попадает в круг")
+import math # пишем чтобы могли использовать функцию math и посчитать расстояние
+x=float(input("Введите значение x")) # вводим 1 число
+y=float(input("Введите значение y")) # вводим 2 число
+R=float(input("Введите радиус круга")) # вводим радиус
+formylarastoyania=math.sqrt(x**2+y**2) # расстояние считаем 
+if formylarastoyania <= R: # если оно меньше радиуса то
+ print("Точка попадает в круг") # попадает
+else: # в другом случае
+ print("Точка не попадает в круг") # не попадает
